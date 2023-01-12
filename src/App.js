@@ -1,14 +1,7 @@
 import './App.css';
 import {useEffect, useState} from "react";
 
-const user = {
-    firstName: 'Harper',
-    lastName: 'Perez'
-}
 
-const nums = [1,2,3,4,5,6,7,8,9]
-
-const getTime = () => new Date().toTimeString();
 
 function App() {
 
@@ -51,12 +44,9 @@ function App() {
      {time.toTimeString()}
  </h3>
 
-         <ul>
-             {nums.map(i=>(
-                 <li key={i}> {i}</li>
-             ))
-             }
-         </ul>
+         <h4>Ug Idiot</h4>
+
+
      </div>
    )
 
